@@ -1,0 +1,38 @@
+npm install @mui/material @emotion/react @emotion/styled
+
+
+
+
+"peerDependencies": {
+  "react": "^17.0.0 || ^18.0.0",
+  "react-dom": "^17.0.0 || ^18.0.0"
+},
+
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+
+npm i axios
+
+
+
+server------npm i bcrypt
+
+
+
+server-----------npm i jsonwebtoken
+
+
+
+
+for that jwt authentication we need string for that access token and all so type node in server side 
+and then type require('crypto').randomBytes(64).toString('hex')
+
+
+
+
+context api helps in storing the data like name and username which is used for the project
+
+
+
+for routing go to client and type npm i react-router-dom
