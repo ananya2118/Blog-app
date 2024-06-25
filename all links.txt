@@ -36,3 +36,22 @@ context api helps in storing the data like name and username which is used for t
 
 
 for routing go to client and type npm i react-router-dom
+
+
+
+to render unique component so it need unique key 
+
+
+
+
+
+client -----------npm install @mui/icons-material
+
+
+
+
+server----------------npm i multer-gridfs-storage
+
+npm i multer
+
+npm i gridfs-stream

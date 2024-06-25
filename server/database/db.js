@@ -5,7 +5,7 @@ const Connection = async(username,password) =>{
     const URL = `mongodb+srv://${username}:${password}@blog-app.dyzykvh.mongodb.net/?retryWrites=true&w=majority&appName=blog-app`;
     try{
         await mongoose.connect(URL,{useNewUrlParser: true});
-        console.log("databse connected successfully!!!!");
+        console.log("database connected successfully and hiii !!!!");
     }
     catch(error)
     {
